@@ -106,10 +106,22 @@ Each robot has its own amcl node for localization, which is defined under the ro
 
 # Communication 
 The communication part is developed into three parts, MQTT protocol, AWS cloud, NODE-RED  application. For MQTT we need to install the MQTT broker. The AWS server is based on the EC-2 instance we can create the server in amazon website. 
-## AWS-EC2 instance
+### AWS-EC2 instance
 This instance is craeted based on the ubuntu 20. 
 Once the instance is created using the `ssh` of this server, we can open the server on the machine. 
 After running the server on the machine, its time to install the mqtt broker and application node-red. 
 ### Follow this website to install the MQTT broker on the AWS server 
+https://mosquitto.org/download/
+
+Once the broker is being installed, the next step is to configure the confi file of mqtt broker. 
+
+to make things easier, have a look at this youtube video, where its explained how to create the aws instance, installing mqtt broker and how to edit the config file of mqtt broker. 
+https://www.youtube.com/watch?v=4ljcBn5RC0Q&ab_channel=Techbeast.org
+
+### Follow this website to install the node-red on the AWS server 
 https://nodered.org/docs/getting-started/local
+The webpage can be accessed using the ip address of the AWS cloud with port number 1880 i.e, IP_ADDRESS:1880. Type this on any brower it will open the node-red application. 
+
+
+
 
