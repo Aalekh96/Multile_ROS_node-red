@@ -26,7 +26,7 @@
    ```
       roslaunch ros_sim multi_turtlebot3_navigation.launch   
    ```
-   The rviz is opened and now we have to localize the robot, we can see the 2d pose estimate for both the robots, thus using this arrows we can localise the robot in an given environment. Compare the position in gazebo and try to approximate the position in rviz using the 2D position. 
-   While localizing try to move the robots using 2d navigation. 
-   Once all the particles converges around the robot, that means the robot is localised accurately 
+   The rviz is opened and now we have to localize the robot, we can see the 2d pose estimate (green arrow) for both the robots, thus using this arrows we can localise      the robot in an given environment. Compare the position in gazebo and try to approximate the position in rviz using the 2D position. 
+   While localizing try to move the robots using 2d navigation(purple arrow). 
+   Once all the particles converges around the robot, that means the robot is localised accurately. 
    
