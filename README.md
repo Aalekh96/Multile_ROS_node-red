@@ -118,9 +118,12 @@ Once the broker is being installed, the next step is to configure the confi file
 to make things easier, have a look at this youtube video, where its explained how to create the aws instance, installing mqtt broker and how to edit the config file of mqtt broker. 
 https://www.youtube.com/watch?v=4ljcBn5RC0Q&ab_channel=Techbeast.org
 
-### Follow this website to install the node-red on the AWS server 
+### Follow this website to install the NODE-RED on the AWS server 
 https://nodered.org/docs/getting-started/local
 The webpage can be accessed using the ip address of the AWS cloud with port number 1880 i.e, IP_ADDRESS:1880. Type this on any brower it will open the node-red application. 
+
+Here, we can craete the flow of the information. as shown in image. 
+
 
 
 
