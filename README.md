@@ -101,3 +101,15 @@ Each robot has its own amcl node for localization, which is defined under the ro
 * Setup and Configuration of the Navigation Stack: <http://wiki.ros.org/navigation/Tutorials/RobotSetup>
 * Turtlebot3 simulation: <https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/>
 * Multiple turtlebot3 mapping: <https://wiki.nps.edu/pages/viewpage.action?pageId=1018462212>
+
+
+
+# Communication 
+The communication part is developed into three parts, MQTT protocol, AWS cloud, NODE-RED  application. For MQTT we need to install the MQTT broker. The AWS server is based on the EC-2 instance we can create the server in amazon website. 
+## AWS-EC2 instance
+This instance is craeted based on the ubuntu 20. 
+Once the instance is created using the `ssh` of this server, we can open the server on the machine. 
+After running the server on the machine, its time to install the mqtt broker and application node-red. 
+### Follow this website to install the MQTT broker on the AWS server 
+https://nodered.org/docs/getting-started/local
+
