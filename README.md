@@ -7,7 +7,7 @@
     
    ## To run the simulation with multiple robots use the following command
    '''
-   roslaunch ros_sim multi_turtlebot3_slam_world.launch
+      roslaunch ros_sim multi_turtlebot3_slam_world.launch
    '''
    This will open the gazebo with a ware-house envrionment and will spawn two turtlebot3 robots. 
         
