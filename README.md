@@ -124,7 +124,7 @@ The webpage can be accessed using the ip address of the AWS cloud with port numb
 
 Here, we can craete the flow of the information. as shown in image. 
 
-![GitHub Logo](Node_Red_Images/AWS_NODE-RED.png)
+![GitHub Logo](Node_Red_images/AWS_NODE-RED.png)
 
 
 
