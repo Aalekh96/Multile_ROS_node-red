@@ -122,8 +122,7 @@ https://www.youtube.com/watch?v=4ljcBn5RC0Q&ab_channel=Techbeast.org
 https://nodered.org/docs/getting-started/local
 The webpage can be accessed using the ip address of the AWS cloud with port number 1880 i.e, IP_ADDRESS:1880. Type this on any brower it will open the node-red application. 
 
-Here, we can craete the flow of the information. as shown in image. 
-
+Here, we can craete the flow of the information. as shown in image:
 ![GitHub Logo](Node_Red_images/AWS_NODE-RED.png)
 
 
