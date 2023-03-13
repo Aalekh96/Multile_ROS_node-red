@@ -123,7 +123,8 @@ https://nodered.org/docs/getting-started/local
 The webpage can be accessed using the ip address of the AWS cloud with port number 1880 i.e, IP_ADDRESS:1880. Type this on any brower it will open the node-red application. 
 
 Here, we can create the flow of the information. as shown in image:
-![GitHub Logo](Node_Red_images/AWS_NODE-RED.png)
+
+![GitHub Logo](Node-Red_images/AWS_NODE-RED.png)
 
 ### ROS ubuntu and Node-red. 
 Open the ROS ubuntu, and install the same node-red application. once we have donwloaded the node-red application. 
@@ -133,5 +134,6 @@ Now we are ready to send the information from a clinet to aws to our robots.
 We have seen the previous image where we connected mqt broker node-out to the  mqtt node-in. This was the flow from aws to ros. 
 
 The flow in ros should be as shown below.
-![GitHub Logo](Node-Red_images/AWS_NODE-RED.png)  
+
+![GitHub Logo](Node-Red_images/ROS-TOPIC.png)  
 
