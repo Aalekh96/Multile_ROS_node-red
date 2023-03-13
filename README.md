@@ -139,7 +139,7 @@ The flow in ros should be as shown below.
 
 ### Python
 #### publisher
-The folder Git_upload_python has some files related to publisher and subscriber.
+The folder "Git_upload_python" has some files related to publisher and subscriber.
 The publisher uses the mqtt library. We have saved the payload in file "pose.json".
 We must be sending to the robot to move from point A to point B. Thus, using the append.py we take pose.json, ask the user to update with the coordinates in x,y,z. 
 save this in update_json.json. 
